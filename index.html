@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8"/>
+      <script src="main.js"></script>
+      <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+        <title>Conversor de Moedas</title>
+</head>
+
+  <body>
+
+<div class="container">
+  <h1 class="page-title"><br><br><br><br><br><br><br>
+    Converta Reais para Dólares, Euros e Libras
+  </h1>
+  <br>
+
+  <p class="page-subtitle">
+    (Compare o Real com outras moedas)
+  </p>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+
+  <label for="moeda">Converter R$ em $ (Dólar)</label><br>
+  <input type="number" id="valor" size="2" placeholder="R$" /><br>
+  <button type="submit" onclick="Converter()">Converter</button>
+
+  <h2>
+    <div id="valorConvertido"></div>
+  </h2>
+
+  <label for="moeda">Converter R$ em €$ (Euros)</label><br>
+  <input type="number" id="valorEuro" size="2" placeholder="R$" /><br>
+  <button type="submit" onclick="ConverterEuro()">Converter</button>
+  <h2>
+    <div id="valorConvertidoEuro"></div>
+  </h2>
+
+  <label for="moeda">Converter R$ em £ (Libras)</label><br>
+  <input type="number" id="valorLibras" size="2" placeholder="R$" /><br>
+  <button type="submit" onclick="ConverterLibras()">Converter</button>
+  <h2>
+    <div id="valorConvertidoLibras"></div>
+  </h2>
+
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </body>
+  </html>
